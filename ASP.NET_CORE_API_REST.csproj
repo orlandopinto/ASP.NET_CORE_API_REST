@@ -1,0 +1,72 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200109192742_Initial.cs" />
+    <Compile Remove="Migrations\20200109192742_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200109193453_Initial.cs" />
+    <Compile Remove="Migrations\20200109193453_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200109194053_Initial.cs" />
+    <Compile Remove="Migrations\20200109194053_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200109195254_Initial.cs" />
+    <Compile Remove="Migrations\20200109195254_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200109195608_Initial.cs" />
+    <Compile Remove="Migrations\20200109195608_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200109200044_Initial.cs" />
+    <Compile Remove="Migrations\20200109200044_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200109201443_Initial.cs" />
+    <Compile Remove="Migrations\20200109201443_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200109201906_Initial.cs" />
+    <Compile Remove="Migrations\20200109201906_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200109203543_Initial.cs" />
+    <Compile Remove="Migrations\20200109203543_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200109210056_Update_09012020.cs" />
+    <Compile Remove="Migrations\20200109210056_Update_09012020.Designer.cs" />
+    <Compile Remove="Migrations\20200109210224_Update_09012020[2].cs" />
+    <Compile Remove="Migrations\20200109210224_Update_09012020[2].Designer.cs" />
+    <Compile Remove="Migrations\20200109211520_Initial.cs" />
+    <Compile Remove="Migrations\20200109211520_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200109211733_update_1.cs" />
+    <Compile Remove="Migrations\20200109211733_update_1.Designer.cs" />
+    <Compile Remove="Migrations\20200109212421_Initial.cs" />
+    <Compile Remove="Migrations\20200109212421_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200109213718_update_09012020.cs" />
+    <Compile Remove="Migrations\20200109213718_update_09012020.Designer.cs" />
+    <Compile Remove="Migrations\20200109215557_Initial.cs" />
+    <Compile Remove="Migrations\20200109215557_Initial.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.EntityFrameworkCore">
+      <HintPath>C:\Users\ojpin\.nuget\packages\microsoft.entityframeworkcore\3.1.0\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Design">
+      <HintPath>C:\Users\ojpin\.nuget\packages\microsoft.entityframeworkcore.design\3.1.0\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.SqlServer">
+      <HintPath>C:\Users\ojpin\.nuget\packages\microsoft.entityframeworkcore.sqlserver\3.1.0\lib\netstandard2.0\Microsoft.EntityFrameworkCore.SqlServer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+
+
+</Project>
